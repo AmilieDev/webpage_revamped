@@ -1,0 +1,25 @@
+:root {
+  /* everforest theme colorings */
+  --ef-bg-dim: #232a2e;
+  --ef-bg: #2d353b;
+  --ef-bg-soft: #343f44;
+  --ef-surface: #3d484d;
+  --ef-border: #414b50;
+  --ef-border-light: #4f585e;
+  --ef-fg: #d3c6aa;
+  --ef-grey: #859289;
+  --ef-green: #a7c080;
+  --ef-aqua: #83c092;
+  --ef-red: #e67e80;
+
+  /* chrome design */
+  --win-radius: 6px;
+  --win-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --font-chrome: "IBM Plex Mono", ui-monospace, monospace;
+  --font-body: system-ui, sans-serif;
+}
+
+body {
+  background: var(--ef-bg);
+  color: var(--ef-fg);
+}

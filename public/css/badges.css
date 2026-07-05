@@ -1,0 +1,29 @@
+.badge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge-grid img {
+  image-rendering: pixelated;
+  display: block;
+  background: var(--ef-surface);
+}
+
+.badge-share-body {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge-share {
+  margin-top: 12px;
+}
+
+.badge-share summary {
+  user-select: none;
+  cursor: pointer;
+  color: var(--ef-grey);
+  font-family: var(--font-chrome);
+  font-size: 12px;
+}

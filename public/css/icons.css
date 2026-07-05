@@ -1,0 +1,28 @@
+.icon {
+  position: absolute;
+  width: 72px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon-glyph {
+  font-size: 28px;
+}
+
+.icon-label {
+  font-family: var(--font-chrome);
+  font-size: 11px;
+  color: var(--ef-fg);
+}
+
+.icon:focus-visible {
+  outline: 1px dashed var(--ef-green);
+  outline-offset: 2px;
+}
