@@ -132,3 +132,22 @@
 .window.minimized {
   display: none;
 }
+
+.irc-body {
+  align-items: flex-start;
+}
+
+.irc-info p {
+  margin: 2px 0;
+  font-family: var(--font-chrome);
+  font-size: 12px;
+}
+
+.irc-info code {
+  color: var(--ef-aqua);
+}
+
+.irc-note {
+  color: var(--ef-grey);
+  font-size: 11px;
+}
