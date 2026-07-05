@@ -1,11 +1,6 @@
-import { createWindow } from "./wm/window.js";
-import { openBlog } from "./apps/blog.js";
-import { openLinks } from "./apps/links.js";
-import { createIcon } from "./wm/icons.js";
 import "./wm/taskbar.js";
-import { openAbout } from "./apps/about.js";
-import { open88x31 } from "./apps/88x31.js";
 import { APPS } from "./apps/registry.js";
+import { createIcon } from "./wm/icons.js";
 
 for (const app of Object.values(APPS)) {
   createIcon({
