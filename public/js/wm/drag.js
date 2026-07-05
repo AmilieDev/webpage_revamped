@@ -5,6 +5,7 @@ export function makeDraggable(win) {
 
   titlebar.addEventListener("pointerdown", (e) => {
     if (e.target.closest("button")) return;
+    if (win.classList.contains("maximized")) return;
 
     e.preventDefault();
     offsetX = e.clientX - win.offsetLeft;

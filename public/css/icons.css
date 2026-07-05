@@ -20,6 +20,8 @@
   font-family: var(--font-chrome);
   font-size: 11px;
   color: var(--ef-fg);
+  background: rgba(35, 42, 46, 0.6);
+  padding: 1px 5px;
 }
 
 .icon:focus-visible {
